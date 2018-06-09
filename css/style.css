@@ -1,0 +1,21 @@
+#wrap-body-container {
+  padding-top: 3em;
+}
+
+table {
+  margin-top: 2em;
+}
+
+#btnSelectFetch i {
+  -webkit-animation: rotation 2s infinite linear;
+  margin-right: 1em;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
